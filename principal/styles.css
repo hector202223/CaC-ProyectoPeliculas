@@ -110,7 +110,7 @@ body{
 .main{
     .sectionPrincipal{
         color: white;
-        background-image:linear-gradient(to right top, #0000008a,#0000008a), url("../images/banner-bg.jpg");
+        background-image:linear-gradient(to right top, #0000008a,#0000008a), url("../assets/images/banner-bg.jpg");
         background-size: cover;
         background-position: center;
         height: 90vh;
