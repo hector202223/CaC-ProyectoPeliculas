@@ -219,7 +219,7 @@ background-color: #9f3647;
   
 }
 
-.footer-link {
+a.footer-link {
   margin-right: 10px;
   color: white;
   text-decoration: none;
