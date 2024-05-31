@@ -287,3 +287,77 @@ a.footer-link:visited {
 	
 }/*FIN MEDIAQUERIES 477PX*/
 
+@media screen and (min-width: 478px) and (max-width: 768px) {
+    .header {
+        height: initial;
+    }
+    .header .navegacion {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        row-gap: 20px;
+    }
+    .header .navegacion .anclaLogo {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    .header .navegacion .listaNav {
+        padding: initial;
+    }
+    .header .navegacion .listaNav .listaItem .linkNav {
+        font-weight: 400;
+        margin-right: initial;
+        font-size: 1rem;
+        padding: 0.2rem;
+    }
+	
+	/* SECCION PRINCIPAL A 478PX HASTA 768PX*/	
+	
+	body .main .sectionPrincipal {
+		height: 80vh;
+	}
+
+	
+	body .main .sectionPrincipal .tituloPrincipal {
+		font-size: 2rem;
+		font-weight: 700;
+		margin-bottom: 1rem;
+		color:;
+	}
+	body .main .sectionPrincipal .subtituloPrincipal {
+		font-size: 1.6rem;
+		font-weight: 400;
+		margin-bottom: 1rem;
+	}
+	
+	body .main .sectionPrincipal .botonRegistrarse {
+		padding: 0.8rem 1rem;
+		font-size: 1.1rem;
+		font-weight: 400;
+		
+	}
+	/*BUSCADOR PRINCIPAL A 478PX HASTA 767PX */
+
+	body .main .buscadorPrincipal {
+		height: 28vh;
+	}
+	body .main .buscadorPrincipal .tituloSection{
+		font-size: 1.3rem;
+		margin-bottom: 1rem;
+	}
+	
+	body .main .buscadorPrincipal .buscadorPeliculas .inputBuscador {
+		width: 60%;
+		height: 30px;
+		padding: 0px 10px;
+		margin: 0px 10px;    
+	}
+	body .main .buscadorPrincipal .buscadorPeliculas .botonBuscador {
+		margin: 10px 10px;
+		padding: 0 10px;
+		border-radius: 25px;
+		height: 30px;
+    }
+	
+	
+}/*FIN MEDIAQUERIES 478 ~ 768PX*/
