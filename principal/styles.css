@@ -106,6 +106,26 @@ body{
             }
         }
     }
+/*probando responsive de la seccio buscar*/
+    body .main .buscadorPrincipal .buscadorPeliculas .inputBuscador {
+    width: 360px;
+	height: 40px;
+    padding: 0px 10px;
+    margin: 0px 10px;    
+}
+body .main .buscadorPrincipal .buscadorPeliculas .botonBuscador {
+    margin: 10px 10px;
+    padding: 0 20px;
+    border-radius: 25px;
+	height: 40px;
+    
+}
+body .main .buscadorPrincipal .tituloSection{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+	
+
 }
 .main{
     .sectionPrincipal{
