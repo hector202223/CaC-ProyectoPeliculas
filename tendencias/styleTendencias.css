@@ -115,3 +115,102 @@ body{
 
     }
 }
+
+
+/*se agrega header*/
+
+/* HEADER */
+
+.header {
+    background-color: #9f3647;
+    color: #ffffff;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header .navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 1.5rem 0;
+}
+
+.header .navegacion .anclaLogo {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.header .navegacion .listaNav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header .navegacion .listaNav .listaItem {
+    margin-right: 20px;
+}
+
+.header .navegacion .listaNav .listaItem .linkNav {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.header .navegacion .listaNav .listaItem .linkNav:hover {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.header .navegacion .listaNav .listaItem .linkNav.iniciarSesion {
+    background-color: #181419;
+    color: white;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.header .navegacion .listaNav .listaItem .linkNav.iniciarSesion:hover {
+    background-color: #9f3647;
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ESTILOS PARA HEADER MOBILE Y TABLET */
+@media (max-width: 768px) {
+    
+	.header {
+        height: initial;
+    }
+
+    .header .navegacion {
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .header .navegacion .anclaLogo {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+    .header .navegacion .listaNav {
+        padding: initial;
+    }
+
+    .header .navegacion .listaNav .listaItem .linkNav {
+        font-weight: 400;
+        margin-right: initial;
+        font-size: 1rem;
+        padding: 0.2rem;
+    }
+}
