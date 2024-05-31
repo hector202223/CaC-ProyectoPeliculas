@@ -205,3 +205,23 @@ body{
         }
     }
 }
+
+/* footer*/
+footer {
+  background-color: #9f3647;
+  padding: 20px;
+}
+
+.contenedor-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+.footer-link {
+  margin-right: 10px;
+  color: blue;
+  text-decoration: none;
+  color:white;
+}
